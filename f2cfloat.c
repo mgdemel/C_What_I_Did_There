@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* A program that displays a conversion of fahrenheit to celcius on the standard output*/
+
 int main(void)
 {
     float fahr;
