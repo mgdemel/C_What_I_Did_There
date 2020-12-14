@@ -3,7 +3,7 @@
 
 void ft_putnbr(int x)
 {
-	printf("%d",x);
+	printf("%d\n",x);
 }
 
 void ft_foreach(int *str, int length, void (*f)(int))
@@ -23,6 +23,6 @@ int main(void)
 	void (*f)(int);
 
 	f = &ft_putnbr;
-	ft_foreach(str, 2, f);
+	ft_foreach(str, 5, f);
 	return (0);
 }
