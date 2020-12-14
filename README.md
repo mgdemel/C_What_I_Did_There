@@ -19,7 +19,7 @@ A program that takes a string and displays it in reverse followed by a newline. 
 ## rotone
 A program that takes a string and displays it, replacing each of its letters to the next one in alphabetical order. 'z' becomes 'a' and 'Z' becomes 'A'. Case remains unaffected. The output will be followed by a \n. If the number of arguments is not 1, the program displays \n.
 
-## How to test it:
+## How to test them:
 - Each program has its own pre-compiled binary. 
 - The programs rev_print and rotone receive their arguments from the command line.
 - Feel free to also edit the main functions and re-compile the binary files to run your own tests, too.
